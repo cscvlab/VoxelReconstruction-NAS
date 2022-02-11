@@ -19,7 +19,6 @@ higher reconstruction accuracy using fewer network parameters.
 
 ## Dataset
 We use [Shapenet](https://shapenet.org/download/shapenetcore) and [Thingi10k](https://ten-thousand-models.appspot.com/) datasets, both of which are available from their official website. [Thingi32]( https://github.com/nv-tlabs/nglod/issues/4) is composed of 32 simple shapes in Thingi10K. [ShapeNet150]( https://github.com/nv-tlabs/nglod/issues/4) contains 150 shapes in the ShapeNet dataset.
-## ShapeNet
 
 
 
