@@ -2,6 +2,14 @@
 Yongdong Huang, Yuanzhan Li, Xulong Cao and Siyu Zhang, Shen Cai∗ , Ting Lu,Yuqi Liu.An Efficient End-to-End 3D Model Reconstruction
 based on Neural Architecture Search.
 
+If you find our code or paper useful, please consider citing
+
+    @inproceedings{Occupancy Networks,
+        title = {Occupancy Networks: Learning 3D Reconstruction in Function Space},
+        author = {Mescheder, Lars and Oechsle, Michael and Niemeyer, Michael and Nowozin, Sebastian and Geiger, Andreas},
+        booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+        year = {2019}
+    }
 ## Methodology
 we complete the end-to-end network by classifying binary voxels.
 Compared to other signed distance field (SDF) prediction or
@@ -9,6 +17,20 @@ binary classification networks, our method achieves significantly
 higher reconstruction accuracy using fewer network parameters.
 ![](IMGS/Fig1.png)
 ![](IMGS/Fig3.png)
+
+[3] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger,
+“Occupancy networks: Learning 3d reconstruction in function space,”
+in IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR), 2019, pp. 4455–4465.
+
+[4] T. Davies, D. Nowrouzezahrai, and A. Jacobson, “On the effectiveness of weight-encoded neural implicit 3d shapes,” arXiv preprint
+arXiv:2009.09808, 2020.
+
+[5] T. Takikawa, J. Litalien, K. Yin, K. Kreis, C. Loop, D. Nowrouzezahrai,
+A. Jacobson, M. McGuire, and S. Fidler, “Neural geometric level of
+detail: Real-time rendering with implicit 3d shapes,” in IEEE/CVF
+Conference on Computer Vision and Pattern Recognition (CVPR), 2021,
+pp. 11 353–11 362.
 ## Network
 
 ![](IMGS/Fig2.png)
