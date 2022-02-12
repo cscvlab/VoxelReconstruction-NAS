@@ -4,12 +4,6 @@ based on Neural Architecture Search.
 
 If you find our code or paper useful, please consider citing
 
-    @inproceedings{Occupancy Networks,
-        title = {Occupancy Networks: Learning 3D Reconstruction in Function Space},
-        author = {Mescheder, Lars and Oechsle, Michael and Niemeyer, Michael and Nowozin, Sebastian and Geiger, Andreas},
-        booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
-        year = {2019}
-    }
 ## Methodology
 we complete the end-to-end network by classifying binary voxels.
 Compared to other signed distance field (SDF) prediction or
