@@ -1,12 +1,10 @@
 # An Efficient End-to-End 3D Model Reconstruction based on Neural Architecture Search.
-Yongdong Huang, Yuanzhan Li, Xulong Cao and Siyu Zhang, Shen Cai∗ , Ting Lu,Yuqi Liu.An Efficient End-to-End 3D Model Reconstruction
-based on Neural Architecture Search.
+Yongdong Huang, Yuanzhan Li, Xulong Cao, Siyu Zhang, Shen Cai*, Ting Lu, and Yuqi Liu. An Efficient End-to-End 3D Model Reconstruction
+based on Neural Architecture Search. Submitted to ICPR2022.
 
 ## Methodology
-we complete the end-to-end network by classifying binary voxels.
-Compared to other signed distance field (SDF) prediction or
-binary classification networks, our method achieves significantly
-higher reconstruction accuracy using fewer network parameters.
+We complete the end-to-end neural network for 3D model reconstruction task by classifying binary voxels.
+Compared to other signed distance field (SDF) prediction or binary classification networks, our method achieves significantly higher reconstruction accuracy using fewer network parameters.
 ![](IMGS/Fig1.png)
 ![](IMGS/Fig3.png)
 
