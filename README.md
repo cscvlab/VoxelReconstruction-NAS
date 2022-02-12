@@ -80,4 +80,4 @@ tensorflow 2.0
 ```
 
 ## License
-This project is licensed under the terms of the Apache License (see `LICENSE` for details).
+This project is licensed under the terms of the LGPL License (see `LICENSE` for details).
