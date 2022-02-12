@@ -8,16 +8,15 @@ Compared to other signed distance field (SDF) prediction or binary classificatio
 ![](IMGS/Fig1.png)
 ![](IMGS/Fig3.png)
 
-[Onet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.pdf) ,
+[ONet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.pdf) ,
 [NI](https://arxiv.org/pdf/2009.09808v3.pdf) and
 [NGLOD](https://openaccess.thecvf.com/content/CVPR2021/papers/Takikawa_Neural_Geometric_Level_of_Detail_Real-Time_Rendering_With_Implicit_3D_CVPR_2021_paper.pdf) are the methods we compared in our paper.
 
-@inproceedings{Occupancy Networks,
-        title = {Occupancy Networks: Learning 3D Reconstruction in Function Space},
-        author = {Mescheder, Lars and Oechsle, Michael and Niemeyer, Michael and Nowozin, Sebastian and Geiger, Andreas},
-        booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
-        year = {2019}
-    }
+[NI] Thomas Davies, Derek Nowrouzezahrai,  and Alec Jacobson,  “On the effectiveness ofweight-encoded neural implicit 3d shapes,” arXiv:2009.09808, 2020.
+
+[NGLOD] Towaki Takikawa, Joey Litalien, Kangxue Yin, Karsten Kreis, Charles  Loop,  Derek Nowrouzezahrai, Alec Jacobson, Morgan McGuire, and Sanja Fidler, “Neural geometric level of detail:  real-time rendering with implicit 3d shapes,” in CVPR, 2021.
+
+[ONet] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger, “Occupancy networks: Learning 3d reconstruction in function space,”, in CVPR, 2019.
 
 [//]: # ([3] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger,)
 
