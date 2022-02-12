@@ -2,8 +2,6 @@
 Yongdong Huang, Yuanzhan Li, Xulong Cao and Siyu Zhang, Shen Cai∗ , Ting Lu,Yuqi Liu.An Efficient End-to-End 3D Model Reconstruction
 based on Neural Architecture Search.
 
-If you find our code or paper useful, please consider citing
-
 ## Methodology
 we complete the end-to-end network by classifying binary voxels.
 Compared to other signed distance field (SDF) prediction or
