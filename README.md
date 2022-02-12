@@ -10,7 +10,14 @@ Compared to other signed distance field (SDF) prediction or binary classificatio
 
 [Onet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.pdf) ,
 [NI](https://arxiv.org/pdf/2009.09808v3.pdf) and
-[NGLOD](https://openaccess.thecvf.com/content/CVPR2021/papers/Takikawa_Neural_Geometric_Level_of_Detail_Real-Time_Rendering_With_Implicit_3D_CVPR_2021_paper.pdf) are the method we compare in our paper.
+[NGLOD](https://openaccess.thecvf.com/content/CVPR2021/papers/Takikawa_Neural_Geometric_Level_of_Detail_Real-Time_Rendering_With_Implicit_3D_CVPR_2021_paper.pdf) are the methods we compared in our paper.
+
+@inproceedings{Occupancy Networks,
+        title = {Occupancy Networks: Learning 3D Reconstruction in Function Space},
+        author = {Mescheder, Lars and Oechsle, Michael and Niemeyer, Michael and Nowozin, Sebastian and Geiger, Andreas},
+        booktitle = {Proceedings IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+        year = {2019}
+    }
 
 [//]: # ([3] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger,)
 
@@ -35,20 +42,19 @@ Compared to other signed distance field (SDF) prediction or binary classificatio
 [//]: # (Conference on Computer Vision and Pattern Recognition &#40;CVPR&#41;, 2021,)
 
 [//]: # (pp. 11 353–11 362.)
-## Network
 
+## Network
 ![](IMGS/Fig2.png)
-## Experiment
+
+## Experimental Results
 ![](IMGS/Fig4.png)
 ![](IMGS/Table1.png)
-## Results
 
+## Results files
 Models and reconstructions of the 3D objects presented in our paper are in the RESULTS folder. You can directly run eval.py to get the reconstruction results, or download [Meshlab](https://meshlab.en.softonic.com/) to open the reconstruction results provided by us. Note that when using MeshLab to view the reconstruction results we provide, select X Y Z for Point format and SPACE for Separator.
 
 ## Dataset
-We use [Shapenet](https://shapenet.org/download/shapenetcore) and [Thingi10k](https://ten-thousand-models.appspot.com/) datasets, both of which are available from their official website. [Thingi32]( https://github.com/nv-tlabs/nglod/issues/4) is composed of 32 simple shapes in Thingi10K. [ShapeNet150]( https://github.com/nv-tlabs/nglod/issues/4) contains 150 shapes in the ShapeNet dataset.
-
-
+We use [Shapenet](https://shapenet.org/download/shapenetcore) and [Thingi10k](https://ten-thousand-models.appspot.com/) datasets, both of which are available from their official websites. [Thingi32]( https://github.com/nv-tlabs/nglod/issues/4) is composed of 32 simple shapes in Thingi10K. [ShapeNet150]( https://github.com/nv-tlabs/nglod/issues/4) contains 150 shapes in the ShapeNet dataset.
 
 ## Getting started
 
@@ -64,7 +70,7 @@ python eval.py
 ```
 
 ### Ubuntu and CUDA version
-We verified that it worked on ubuntu18.04 cuda10.2
+We verified that it worked on ubuntu18.04 & cuda10.2.
 
 ### Python dependencies
 ```bash
