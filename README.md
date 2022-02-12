@@ -23,7 +23,7 @@ higher reconstruction accuracy using fewer network parameters.
 in IEEE/CVF Conference on Computer Vision and Pattern Recognition
 (CVPR), 2019, pp. 4455–4465.
 
-[4] T. Davies, D. Nowrouzezahrai, and A. Jacobson, “On the effectiveness of weight-encoded neural implicit 3d shapes,” arXiv preprint
+[4] T. Davies, D. Nowrouzezahrai, and A. Jacobson, “On the effectiveness of weight-encoded neural implicit 3d shapes,” arXiv preprint
 arXiv:2009.09808, 2020.
 
 [5] T. Takikawa, J. Litalien, K. Yin, K. Kreis, C. Loop, D. Nowrouzezahrai,
