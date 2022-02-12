@@ -10,19 +10,33 @@ higher reconstruction accuracy using fewer network parameters.
 ![](IMGS/Fig1.png)
 ![](IMGS/Fig3.png)
 
-[3] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger,
-“Occupancy networks: Learning 3d reconstruction in function space,”
-in IEEE/CVF Conference on Computer Vision and Pattern Recognition
-(CVPR), 2019, pp. 4455–4465.
+[Onet](https://openaccess.thecvf.com/content_CVPR_2019/papers/Mescheder_Occupancy_Networks_Learning_3D_Reconstruction_in_Function_Space_CVPR_2019_paper.pdf) ,
+[NI](https://arxiv.org/pdf/2009.09808v3.pdf) and
+[NGLOD](https://openaccess.thecvf.com/content/CVPR2021/papers/Takikawa_Neural_Geometric_Level_of_Detail_Real-Time_Rendering_With_Implicit_3D_CVPR_2021_paper.pdf) are the method we compare in our paper.
 
-[4] T. Davies, D. Nowrouzezahrai, and A. Jacobson, “On the effectiveness of weight-encoded neural implicit 3d shapes,” arXiv preprint
-arXiv:2009.09808, 2020.
+[//]: # ([3] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger,)
 
-[5] T. Takikawa, J. Litalien, K. Yin, K. Kreis, C. Loop, D. Nowrouzezahrai,
-A. Jacobson, M. McGuire, and S. Fidler, “Neural geometric level of
-detail: Real-time rendering with implicit 3d shapes,” in IEEE/CVF
-Conference on Computer Vision and Pattern Recognition (CVPR), 2021,
-pp. 11 353–11 362.
+[//]: # (“Occupancy networks: Learning 3d reconstruction in function space,”)
+
+[//]: # (in IEEE/CVF Conference on Computer Vision and Pattern Recognition)
+
+[//]: # (&#40;CVPR&#41;, 2019, pp. 4455–4465.)
+
+[//]: # ()
+[//]: # ([4] T. Davies, D. Nowrouzezahrai, and A. Jacobson, “On the effectiveness of weight-encoded neural implicit 3d shapes,” arXiv preprint)
+
+[//]: # (arXiv:2009.09808, 2020.)
+
+[//]: # ()
+[//]: # ([5] T. Takikawa, J. Litalien, K. Yin, K. Kreis, C. Loop, D. Nowrouzezahrai,)
+
+[//]: # (A. Jacobson, M. McGuire, and S. Fidler, “Neural geometric level of)
+
+[//]: # (detail: Real-time rendering with implicit 3d shapes,” in IEEE/CVF)
+
+[//]: # (Conference on Computer Vision and Pattern Recognition &#40;CVPR&#41;, 2021,)
+
+[//]: # (pp. 11 353–11 362.)
 ## Network
 
 ![](IMGS/Fig2.png)
