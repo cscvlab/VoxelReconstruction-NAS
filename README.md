@@ -31,6 +31,8 @@ pp. 11 353–11 362.
 ![](IMGS/Table1.png)
 ## Results
 
+Models and reconstructions of the 3D objects presented in our paper are in the RESULTS folder. You can directly run eval.py to get the reconstruction results, or download [Meshlab](https://meshlab.en.softonic.com/) to open the reconstruction results provided by us. Note that when using MeshLab to view the reconstruction results we provide, select X Y Z for Point format and SPACE for Separator.
+
 ## Dataset
 We use [Shapenet](https://shapenet.org/download/shapenetcore) and [Thingi10k](https://ten-thousand-models.appspot.com/) datasets, both of which are available from their official website. [Thingi32]( https://github.com/nv-tlabs/nglod/issues/4) is composed of 32 simple shapes in Thingi10K. [ShapeNet150]( https://github.com/nv-tlabs/nglod/issues/4) contains 150 shapes in the ShapeNet dataset.
 
@@ -53,3 +55,7 @@ python eval.py
 We verified that it worked on ubuntu18.04 cuda10.2
 
 ### Python dependencies
+```bash
+python 3.6
+tensorflow 2.0
+```

@@ -34,7 +34,7 @@ def render(renderfile):
     save_reconstruct(x,y,save_file_path)
 
 if __name__=='__main__':
-    root_dir="./RESULTS/thingi10k"
+    root_dir="./RESULTS/model/thingi10k"
     dirs=os.listdir(root_dir)
     for dir in dirs:
         renderfile=os.path.join(os.path.join(root_dir,dir),"mlp_model.h5")
