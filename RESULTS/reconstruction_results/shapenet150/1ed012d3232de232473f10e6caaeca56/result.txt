@@ -1,0 +1,10 @@
+architectrue [(3, ''), (32, 'elu'), (48, 'relu'), (64, 'relu'), (24, 'relu'), (56, 'relu'), (28, 'swish'), (1, 'sigmoid')]
+size 9433
+path /home/cscv3090/桌面/hyd/shapenet150_voxlized/2/1ed012d3232de232473f10e6caaeca56.obj
+inside_right_num 39803
+inside_wrong_num 1351
+outside_wrong_num 959
+err_num 2310
+acc 99.89485662266728
+iou 94.51475791323344
+chamfer 0.053816415168807155

@@ -1,0 +1,10 @@
+architectrue [(3, ''), (24, 'elu'), (64, 'relu'), (48, 'relu'), (48, 'swish'), (56, 'elu'), (32, 'elu'), (1, 'sigmoid')]
+size 11769
+path /home/cscv3090/桌面/hyd/thingi1k/1/51017.obj
+inside_right_num 41657
+inside_wrong_num 7442
+outside_wrong_num 6592
+err_num 14034
+acc 99.36121984524351
+iou 74.80023702214002
+chamfer 0.41759060467242914

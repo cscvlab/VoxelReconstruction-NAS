@@ -1,0 +1,10 @@
+architectrue [(3, ''), (28, 'relu'), (16, 'relu'), (24, 'elu'), (16, 'elu'), (8, 'elu'), (8, 'swish'), (1, 'sigmoid')]
+size 1601
+path /home/ch/Desktop/thing1k/6/42268.obj
+inside_right_num 30016
+inside_wrong_num 42
+outside_wrong_num 89
+err_num 131
+acc 99.99403732362312
+iou 99.56546256675622
+chamfer 0.007750714014787523

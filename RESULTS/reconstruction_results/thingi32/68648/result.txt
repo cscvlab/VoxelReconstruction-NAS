@@ -1,0 +1,10 @@
+architectrue [(3, ''), (28, 'relu'), (48, 'relu'), (8, 'swish'), (28, 'swish'), (28, 'elu'), (40, 'elu'), (1, 'sigmoid')]
+size 4161
+path /home/ch/Desktop/ni_thingi10k_hard_voxlized/shuangkong/68648.obj
+inside_right_num 174107
+inside_wrong_num 37
+outside_wrong_num 11
+err_num 48
+acc 99.99781520254894
+iou 99.97243834515231
+chamfer 0.0007960186871314602

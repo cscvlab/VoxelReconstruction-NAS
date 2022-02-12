@@ -1,0 +1,10 @@
+architectrue [(3, ''), (40, 'relu'), (40, 'relu'), (48, 'relu'), (48, 'elu'), (32, 'elu'), (48, 'elu'), (1, 'sigmoid')]
+size 9321
+path /home/ch/Desktop/318045/318045.obj
+inside_right_num 179170
+inside_wrong_num 3173
+outside_wrong_num 1447
+err_num 4620
+acc 99.78971324533455
+iou 97.48626149409652
+chamfer 0.06608121343610539

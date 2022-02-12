@@ -1,0 +1,10 @@
+architectrue [(3, ''), (32, 'relu'), (12, 'elu'), (40, 'relu'), (48, 'relu'), (20, 'elu'), (8, 'relu'), (1, 'sigmoid')]
+size 4169
+path /home/ch/Desktop/shapenet150_voxlized/2/c5d0dd7a7b44b079a76ffc04f04676cb.obj
+inside_right_num 19393
+inside_wrong_num 339
+outside_wrong_num 308
+err_num 647
+acc 99.97055075102412
+iou 96.77145708582835
+chamfer 0.040530902002320054
