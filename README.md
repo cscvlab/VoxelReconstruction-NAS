@@ -78,3 +78,6 @@ We verified that it worked on ubuntu18.04 & cuda10.2.
 python 3.6
 tensorflow 2.0
 ```
+
+## License
+This project is licensed under the terms of the Apache License (see `LICENSE` for details).
