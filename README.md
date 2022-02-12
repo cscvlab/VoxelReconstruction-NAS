@@ -3,8 +3,8 @@ Yongdong Huang, Yuanzhan Li, Xulong Cao, Siyu Zhang, Shen Cai*, Ting Lu, and Yuq
 based on Neural Architecture Search. Submitted to ICPR2022.
 
 ## Methodology
-We complete the end-to-end neural network for 3D model reconstruction task by classifying binary voxels.
-Compared to other signed distance field (SDF) prediction or binary classification networks, our method achieves significantly higher reconstruction accuracy using fewer network parameters.
+We complete the end-to-end neural network for 3D model reconstruction task by classifying binary voxels and utilizing the technology of neural architecture search (NAS).
+Compared to other signed distance field (SDF) prediction or binary classification methods, our method achieves significantly higher reconstruction accuracy using fewer network parameters. 
 ![](IMGS/Fig1.png)
 ![](IMGS/Fig3.png)
 
@@ -12,11 +12,13 @@ Compared to other signed distance field (SDF) prediction or binary classificatio
 [NI](https://arxiv.org/pdf/2009.09808v3.pdf) and
 [NGLOD](https://openaccess.thecvf.com/content/CVPR2021/papers/Takikawa_Neural_Geometric_Level_of_Detail_Real-Time_Rendering_With_Implicit_3D_CVPR_2021_paper.pdf) are the methods we compared in our paper.
 
+[ONet] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger, “Occupancy networks: Learning 3d reconstruction in function space,”, in CVPR, 2019.
+
 [NI] Thomas Davies, Derek Nowrouzezahrai,  and Alec Jacobson,  “On the effectiveness ofweight-encoded neural implicit 3d shapes,” arXiv:2009.09808, 2020.
 
 [NGLOD] Towaki Takikawa, Joey Litalien, Kangxue Yin, Karsten Kreis, Charles  Loop,  Derek Nowrouzezahrai, Alec Jacobson, Morgan McGuire, and Sanja Fidler, “Neural geometric level of detail:  real-time rendering with implicit 3d shapes,” in CVPR, 2021.
 
-[ONet] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger, “Occupancy networks: Learning 3d reconstruction in function space,”, in CVPR, 2019.
+
 
 [//]: # ([3] L. Mescheder, M. Oechsle, M. Niemeyer, S. Nowozin, and A. Geiger,)
 
@@ -45,11 +47,11 @@ Compared to other signed distance field (SDF) prediction or binary classificatio
 ## Network
 ![](IMGS/Fig2.png)
 
-## Experimental Results
+## Experimental results
 ![](IMGS/Fig4.png)
 ![](IMGS/Table1.png)
 
-## Results files
+## Result files
 Models and reconstructions of the 3D objects presented in our paper are in the RESULTS folder. You can directly run eval.py to get the reconstruction results, or download [Meshlab](https://meshlab.en.softonic.com/) to open the reconstruction results provided by us. Note that when using MeshLab to view the reconstruction results we provide, select X Y Z for Point format and SPACE for Separator.
 
 ## Dataset
