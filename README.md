@@ -1,6 +1,6 @@
 # An Efficient End-to-End 3D Model Reconstruction based on Neural Architecture Search.
 Yongdong Huang, Yuanzhan Li, Xulong Cao, Siyu Zhang, Shen Cai*, Ting Lu, Jie Wang, and Yuqi Liu. An Efficient End-to-End 3D Model Reconstruction
-based on Neural Architecture Search. ICPR2022 (oral presentation).
+based on Neural Architecture Search. Accepted by ICPR2022 (oral presentation).
 
 ## Methodology
 We complete an end-to-end neural network for 3D model reconstruction task by classifying binary voxels and utilizing the technology of neural architecture search (NAS).
